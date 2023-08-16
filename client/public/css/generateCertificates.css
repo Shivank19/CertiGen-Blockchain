@@ -1,0 +1,103 @@
+/* Import Container Styling */
+.inputAndButton {
+  width: auto;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.207);
+  padding: 15px 25px;
+}
+
+.importText {
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.importButton {
+  float: right;
+  cursor: pointer;
+  padding: 7px 20px 7px 20px;
+  border-radius: 8px;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+
+/* Parsed table Content */
+.parsedTableContainer {
+  width: auto;
+  color: white;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.parsedTableHeader {
+  width: auto;
+  max-width: 1200px;
+  padding: 5px 30px;
+  background-color: rgba(255, 255, 255, 0.207);
+}
+
+.parsedTable {
+  color: white !important;
+  font-size: 1.2rem !important;
+  font-family: 'Inder', sans-serif !important;
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+td,
+th {
+  text-align: center !important;
+}
+
+.parsedTableName {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/* Generate Button Styling */
+.generateButton {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.generateText {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.templateRow {
+  display: flex !important;
+}
+
+.templateCol {
+  flex: 33.33%;
+  padding: 5px;
+}
+img.template {
+  border: 2px solid blanchedalmond;
+  display: block;
+  width: 60%;
+  margin-left: 100px;
+  margin-right: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px blanchedalmond;
+}
+
+img.template:hover {
+  transform: scale(1.7);
+  transition: 0.5s;
+  /* border-radius: 0px; */
+}

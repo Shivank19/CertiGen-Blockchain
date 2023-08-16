@@ -1,0 +1,119 @@
+.backgroundImage {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8)),
+    url('/images/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* left side */
+.landingBody {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.text {
+  width: 45%;
+  padding: 15px 0px 15px 0px;
+  color: white;
+  /* margin-top: 100px; */
+}
+
+.title__text {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.title__desc {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.703);
+  margin-bottom: 25px;
+}
+
+.btn__login {
+  background: inherit;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #1e1e1e;
+  transition: transform 0.7s;
+}
+
+.btn__login:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px #cca94d;
+}
+
+/* rightSide */
+.image {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.demoCertificate {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 25px #cca94d;
+}
+
+/* login form */
+.modal-content {
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.formHeadingText {
+  text-align: center;
+  text-decoration: underline;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.inputFieldForm {
+  width: 90%;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+  height: 52px;
+  border-radius: 10px;
+}
+
+.inputFieldForm:focus {
+  outline: none;
+}
+
+.MetaMaskConnectButton {
+  font-size: 1.5rem;
+  width: 90%;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: orange;
+}
+
+.MetaMaskConnectText {
+  margin-bottom: 0;
+}
+
+.homeLogo {
+  height: 10rem;
+  /* margin-left: 145px; */
+  /* margin-top: 50px; */
+  /* margin-bottom: 100px; */
+}

@@ -1,0 +1,73 @@
+.navbarContainer {
+  background-color: rgba(40, 39, 41, 0.334);
+  color: white;
+  /* height: 70px; */
+  /* padding: 10px; */
+  width: 100%;
+  box-shadow: 1px 1px 12px #ffffff;
+}
+
+.logoWebsiteImage {
+  height: 4rem;
+  /* width: 140px; */
+  margin: 5px;
+  cursor: pointer;
+}
+
+.profileNavbar {
+  float: right;
+}
+
+.profileIcon {
+  margin-top: -100px !important;
+  font-size: 3.5rem !important;
+  cursor: pointer;
+  color: white !important;
+}
+
+.dropDownProfile {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.dropDownMenu {
+  width: 300px;
+  height: max-content;
+  border-radius: 20px;
+  padding: 20px;
+  color: black;
+  padding-left: 20px;
+  text-align: right;
+  font-size: 1.1rem;
+  background-color: rgb(201, 195, 195);
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.helloDropDown {
+  font-size: 1.3rem;
+  /* text-decoration: underline; */
+}
+
+.linkDropDown {
+  color: black;
+  width: 100%;
+  text-decoration: none;
+}
+
+.linkDropDown:hover {
+  color: black;
+}
+
+a.dropdown-item:hover {
+  background-color: #6f69849c;
+  border-radius: 5px;
+}

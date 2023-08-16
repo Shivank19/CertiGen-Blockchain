@@ -1,0 +1,108 @@
+.mintingSection {
+  width: 75%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+/* left side of minting section */
+.leftSide {
+  border-radius: 25px;
+  width: 55%;
+  padding: 35px 0px 20px 0px;
+  text-align: center;
+  background-color: #242424a5;
+  color: white;
+}
+
+.leftSideHeading {
+  text-decoration: underline;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.inputField {
+  width: 70%;
+  color: white;
+  background-color: rgb(65, 65, 65);
+  padding-left: 20px;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  height: 52px;
+  border-radius: 7px;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.inputField::placeholder {
+  color: rgb(182, 173, 173);
+}
+
+/* Right Side of Minting Section */
+.rightSide {
+  border-radius: 25px;
+  padding: 35px 0px 20px 0px;
+  text-align: center;
+  width: 35%;
+  background-color: #05040942;
+  color: white;
+}
+
+.importFileHashes {
+  background-color: rgb(65, 65, 65);
+  border-radius: 8px;
+  width: 85%;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.importFileHashText {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.importFileHashButton {
+  cursor: pointer;
+  text-align: center;
+  padding: 2px 13px;
+  border-radius: 4px;
+  color: black;
+  margin: auto;
+  background-color: white;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.fillHashContainer {
+  width: 85%;
+  padding: 5px 25px 2px 25px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.fillHashContainer:hover {
+  background-color: #545252;
+}
+
+.fileHashText {
+  font-size: 1.45rem;
+  color: rgb(88, 169, 255);
+  text-decoration: underline;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+/* Mint and Send Button */
+.mintAndSendButton {
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  background-color: rgb(65, 65, 65);
+  padding: 5px;
+  cursor: pointer;
+}

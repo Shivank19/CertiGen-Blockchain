@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+body {
+  font-family: 'Inder', sans-serif;
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 7, 76, 1) 34%,
+    rgba(124, 9, 133, 0.98) 82%,
+    rgba(159, 6, 122, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 7, 76, 1) 34%,
+    rgba(124, 9, 133, 0.98) 82%,
+    rgba(159, 6, 122, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 7, 76, 1) 34%,
+    rgba(124, 9, 133, 0.98) 82%,
+    rgba(159, 6, 122, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9F067A', endColorstr='#000000', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 7, 76, 1) 34%,
+    rgba(124, 9, 133, 0.98) 82%,
+    rgba(159, 6, 122, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 7, 76, 1) 34%,
+    rgba(124, 9, 133, 0.98) 82%,
+    rgba(159, 6, 122, 1) 100%
+  );
+  background-attachment: fixed;
+}
