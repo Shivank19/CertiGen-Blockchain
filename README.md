@@ -1,4 +1,5 @@
-# CertiGen
+![Logo1-small](https://github.com/Shivank19/CertiGen-Blockchain/assets/44070822/faee5517-be2d-4670-87bc-1e1cf6a14720)
+
 
 # Certigen: Blockchain-Based Certificate Generation and Distribution
 
@@ -67,4 +68,5 @@ Contributions are welcome! To contribute to Certigen, follow these steps:
   3. Make your changes and commit them.
   4. Push your changes to your fork.
   5. Submit a pull request to the main repository.
-
+  
+  Please read our [Contribution Guidelines](https://github.com/Shivank19/CertiGen-Blockchain/blob/main/CONTRIBUTING.md) for more details.
