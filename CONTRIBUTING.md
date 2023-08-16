@@ -1,70 +1,51 @@
-# CertiGen
+# Contributing to Certigen
 
-# Certigen: Blockchain-Based Certificate Generation and Distribution
+Thank you for considering contributing to Certigen! We welcome contributions from the community to help make this project even better.
 
-Certigen is a web application built on the Ethereum blockchain that allows for the seamless generation, distribution, and verification of certificates in the form of NFTs (Non-Fungible Tokens). This project aims to simplify the process of issuing and verifying student documents like transcripts, marksheets, degrees, and certificates.
+## How to Contribute
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Workflow](#workflow)
-- [Contributing](#contributing)
+1. Fork the repository by clicking the "Fork" button at the top-right corner of the repository page.
 
-## Introduction
+2. Clone your forked repository to your local machine:
 
-Certigen leverages the Ethereum blockchain and IPFS (InterPlanetary File System) to ensure the security, immutability, and easy verification of certificates. By converting certificates into NFTs and linking them to blockchain transactions, Certigen provides a transparent and tamper-proof solution for certificate management.
-
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm: Install Node.js and npm by following the instructions on [nodejs.org](https://nodejs.org/).
-- Metamask: Install the Metamask browser extension from [metamask.io](https://metamask.io/).
-
-  ### Installation
-  
-  1. Clone the repository:
-     ```bash
-     git clone https://github.com/Shivank19/CertiGen-Blockchain.git
-  
-  2. Install dependencies:
-      ```bash
-      npm install
-  
-  3. Navigate to the client directory:
-      ```bash
-      cd client
-      
-  4. Install dependencies:
-      ```bash
-      npm install
-
-## Usage
-1.  Navigate to the client directory:
-      ```bash
-      cd client
-2. Start the development server
    ```bash
-   npm start
-3. Open your web browser and go to http://localhost:3000.
+   git clone https://github.com/your-username/certigen.git
 
-4. Connect your Metamask wallet and follow the on-screen instructions to generate and distribute certificates.
+3. Create a new branch for your feature or bug fix:
 
-## Workflow
+   ```bash
+   git checkout -b feature-name
 
-![workflow](https://github.com/Shivank19/CertiGen-Blockchain/assets/44070822/346056a0-a1d9-4c5a-bf18-0ee8ae84ccd7)
+4. Make your changes, following the coding style and guidelines.
 
+5. Commit your changes with a meaningful commit message:
 
-## Contributing
+   ```bash
+   git commit -m "Add a concise description of your changes"
 
-Contributions are welcome! To contribute to Certigen, follow these steps:
-  1. Fork the repository.
-  2. Create a new branch for your feature or bug fix.
-  3. Make your changes and commit them.
-  4. Push your changes to your fork.
-  5. Submit a pull request to the main repository.
+6. Push your changes to your fork:
 
+   ```bash
+   git push origin feature-name
+
+7. Open a pull request (PR) against the main branch of the original repository. Please provide a clear description of your changes and why they should be merged.
+
+8. Wait for maintainers to review your PR. Be ready to address any feedback or changes requested.
+
+## Contribution Guidelines
+
+  - Follow the coding style and guidelines used in the project.
+  - Keep your code clean and well-organized.
+  -  Write clear and concise commit messages.
+  - Test your changes thoroughly before submitting a PR.
+  - Ensure your changes do not introduce security vulnerabilities.
+  - If you're adding new features or modifying existing ones, provide appropriate documentation and update the relevant parts of the README.
+  - Be respectful and considerate in all interactions and discussions.
+
+## Bug Reports and Feature Requests
+
+  If you encounter any bugs or have ideas for new features, please open an issue on GitHub. Provide as much detail as possible to help us understand and address the issue or   request.
+
+## Code of Conduct
+
+  By participating in this project, you agree to abide by the Code of Conduct. We expect all contributors to uphold a respectful and inclusive environment.
